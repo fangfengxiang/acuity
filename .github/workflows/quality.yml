@@ -1,0 +1,16 @@
+name: acuity-quality
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          test -s SKILL.md
+          test -s README.md
+          test -s site/index.html
+          python3 -m json.tool evals/cases.json >/dev/null
