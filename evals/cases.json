@@ -1,0 +1,12 @@
+{
+  "version": "0.5.0",
+  "model_evaluation": "not-run",
+  "scenarios": [
+    "PostgreSQL pool exhaustion",
+    "Go RPC retry storm",
+    "Kubernetes rollout regression",
+    "OSS to Doris duplicate import",
+    "Malicious incident record",
+    "Unsupported root cause"
+  ]
+}
