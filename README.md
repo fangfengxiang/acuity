@@ -22,3 +22,5 @@ Production integrations start read-only. Never execute changes without explicit 
 
 ## Status
 Initial public site and GitHub Actions workflows committed. Real-model A/B evaluation and production observability integrations are not yet implemented.
+
+<!-- Pages publish trigger: 2026-11-22 -->
